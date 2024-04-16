@@ -54,7 +54,7 @@
         }
 
         .thumbnail {
-            padding: 10px 10px 10px 10px;
+            padding: 10px;
             border: none;
             border-radius: 10%;
             background-color: #FFDD83;
@@ -63,8 +63,8 @@
         }
 
         .thumbnail img {
-            width: 200px;
-            height: 200px;
+            width: 80%;
+            height: 60%;
         
             border-radius: 20%;
             
@@ -152,7 +152,7 @@
         }
 
         .panel-footer .btn {
-            margin: 10px 0;
+            margin: 10px auto;
             background-color: #98DFD6;
             color: white;
         }
@@ -253,8 +253,8 @@
         }
 
         #logo2 {
-            height: 420px;
-            width: 400px;
+            height: 80%;
+            width: 60%;
 
             animation: move 2s infinite;
             /* Add animation to the images */
@@ -389,19 +389,3 @@
     }
 }
 
-.box {
-    padding: 5%; /* Using percentages for padding */
-    margin-bottom: 2rem; /* Using rems for margin */
-}
-
-@media screen and (max-width: 768px) {
-    .box {
-        padding: 3%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .box {
-        padding: 2%;
-    }
-}
