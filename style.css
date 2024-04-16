@@ -31,10 +31,12 @@
         }
 
         .container-fluid {
-             padding: 2em; /* Using ems for padding */
+             padding: 10px 10px;
+
+.container {
+    padding: 2em; /* Using ems for padding */
     margin: 0 auto; /* Center the container horizontally */
-
-
+}
         }
         
         .bg-grey {
