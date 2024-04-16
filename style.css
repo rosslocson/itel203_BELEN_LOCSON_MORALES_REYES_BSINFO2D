@@ -3,7 +3,7 @@
             font: 400 15px Lato, sans-serif;
             line-height: 1.8;
             color: #818181;
-                margin: 0 auto;
+                margin: 0;
         }
 
         h2 {
@@ -25,18 +25,17 @@
 
         .jumbotron {
             background-color: #FFDD83;
-            color: #fff; 
+            color: #fff;
+            padding: 100px 25px;
             font-family: Montserrat, sans-serif;
         }
 
         .container-fluid {
-             padding: 10px 10px;
+            padding: 60px 50px;
 
-        .container {
-            padding: 2em; /* Using ems for padding */
-            margin: 0 auto; /* Center the container horizontally */
+
         }
-        
+
         .bg-grey {
             background-color: #f6f6f6;
         }
@@ -54,7 +53,7 @@
         }
 
         .thumbnail {
-            padding: 10px;
+            padding: 10px 10px 10px 10px;
             border: none;
             border-radius: 10%;
             background-color: #FFDD83;
@@ -63,8 +62,8 @@
         }
 
         .thumbnail img {
-            width: 80%;
-            height: 60%;
+            width: 200px;
+            height: 200px;
         
             border-radius: 20%;
             
@@ -152,7 +151,7 @@
         }
 
         .panel-footer .btn {
-            margin: 10px auto;
+            margin: 10px 0;
             background-color: #98DFD6;
             color: white;
         }
@@ -253,8 +252,8 @@
         }
 
         #logo2 {
-            height: 80%;
-            width: 60%;
+            height: 420px;
+            width: 400px;
 
             animation: move 2s infinite;
             /* Add animation to the images */
@@ -388,4 +387,3 @@
         border-radius: 0;
     }
 }
-
