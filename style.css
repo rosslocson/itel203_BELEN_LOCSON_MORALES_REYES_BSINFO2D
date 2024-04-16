@@ -388,3 +388,20 @@
         border-radius: 0;
     }
 }
+
+.box {
+    padding: 5%; /* Using percentages for padding */
+    margin-bottom: 2rem; /* Using rems for margin */
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        padding: 3%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        padding: 2%;
+    }
+}
