@@ -31,7 +31,8 @@
         }
 
         .container-fluid {
-            padding: 50px 50px;
+             padding: 2em; /* Using ems for padding */
+    margin: 0 auto; /* Center the container horizontally */
 
 
         }
