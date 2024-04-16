@@ -338,3 +338,52 @@
         width: 200px;
         height: auto;
       }
+@media screen and (max-width: 992px) {
+    .jumbotron {
+        padding: 80px 15px;
+    }
+
+    .container-fluid {
+        padding: 40px 15px;
+    }
+
+    .thumbnail {
+        height: auto;
+    }
+
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        padding: 60px 15px;
+    }
+
+    .container-fluid {
+        padding: 30px 15px;
+    }
+
+    .logo {
+        font-size: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 100px;
+    }
+
+    .thumbnail {
+        padding: 10px;
+        height: auto;
+    }
+
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+}
