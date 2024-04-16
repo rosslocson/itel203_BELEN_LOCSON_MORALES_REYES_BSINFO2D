@@ -3,6 +3,7 @@
             font: 400 15px Lato, sans-serif;
             line-height: 1.8;
             color: #818181;
+                margin: 0;
         }
 
         h2 {
@@ -252,7 +253,7 @@
 
         #logo2 {
             height: 420px;
-            width: auto;
+            width: 400px;
 
             animation: move 2s infinite;
             /* Add animation to the images */
