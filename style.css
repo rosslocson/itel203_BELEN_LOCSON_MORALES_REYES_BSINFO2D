@@ -25,18 +25,16 @@
 
         .jumbotron {
             background-color: #FFDD83;
-            color: #fff;
-            padding: 100px 25px;
+            color: #fff; 
             font-family: Montserrat, sans-serif;
         }
 
         .container-fluid {
              padding: 10px 10px;
 
-.container {
-    padding: 2em; /* Using ems for padding */
-    margin: 0 auto; /* Center the container horizontally */
-}
+        .container {
+            padding: 2em; /* Using ems for padding */
+            margin: 0 auto; /* Center the container horizontally */
         }
         
         .bg-grey {
